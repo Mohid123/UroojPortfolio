@@ -1,0 +1,83 @@
+.example-card {
+  max-width: 40em;
+  margin-bottom: 2%;
+}
+
+.content {
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.1em;
+}
+
+.title {
+  font-family: 'Raleway', sans-serif;
+  margin-top: 4%;
+  padding-bottom: 10px;
+  font-size: 1.2em!important;
+}
+
+.example-header-image {
+  background-image: url('../../assets/ava.jpg');
+  background-size: cover;
+  background-position: center center;
+}
+
+p {
+  font-family: 'Raleway' sans-serif;
+  font-weight: 500;
+  font-size: 1.3em;
+}
+
+.overlay {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 998;
+}
+
+.jumbotron {
+  background-image:url('../../assets/blog.jpg');
+  height: 36vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.title {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 500;
+  font-size: 1.8em;
+}
+
+.titleA {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 500;
+  font-size: 1.2em;
+}
+
+.science {
+  font-family: 'Raleway';
+  font-weight: 800;
+  letter-spacing: 2px;
+  color: white;
+  padding-right: 40px;
+  padding-left: 40px;
+  background-color: #ff8f00;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.active {
+  background-color: #00acc1;
+  border-color: white;
+  border-width: 2px;
+}
+
+.butons {
+  color: white;
+  font-family: 'Raleway';
+  font-weight: 400;
+  border-color: white;
+  font-size: 1em;
+}

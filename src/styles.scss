@@ -1,0 +1,13 @@
+/* You can add global styles to this file, and also import other style files */
+
+@import '~ngx-sharebuttons/themes/default/default-theme';
+@import "~bootstrap/dist/css/bootstrap.css";
+@import './node_modules/font-awesome/scss/font-awesome';
+@import '~quill/dist/quill.core.css';
+@import '~quill/dist/quill.bubble.css';
+@import '~quill/dist/quill.snow.css';
+@import '../node_modules/angular-calendar/css/angular-calendar.css';
+
+html, body { height: 100%; width: 100%; margin: 0px; padding: 0px; }
+     // overflow-x: hidden;  }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; background-color: #455a64; }
