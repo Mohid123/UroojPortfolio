@@ -21,12 +21,8 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { ShareButtonsModule } from 'ngx-sharebuttons/buttons';
 import { ShareIconsModule } from 'ngx-sharebuttons/icons';
 import { SidebarModule } from 'ng-sidebar';
-import { FlashMessagesModule } from 'angular2-flash-messages';
-import { CKEditorModule } from '@ckeditor/ckeditor5-angular';
-import { MatCarouselModule } from '@ngbmodule/material-carousel';
+
 import { NgxSpinnerModule } from "ngx-spinner";
-import { CalendarModule, DateAdapter } from 'angular-calendar';
-import { adapterFactory } from 'angular-calendar/date-adapters/date-fns';
 
 import { AppRoutingModule } from './app-routing.module';
 
@@ -80,14 +76,6 @@ import { ProjectShowComponent } from './project-show/project-show.component';
     ShareIconsModule,
     FontAwesomeModule,
     SidebarModule.forRoot(),
-    FlashMessagesModule.forRoot(),
-    MatCarouselModule.forRoot(),
-    CalendarModule.forRoot({
-      provide: DateAdapter,
-      useFactory: adapterFactory,
-    }),
-    NgbModule,
-    CKEditorModule,
     NgxSpinnerModule
   ],
   providers: [
