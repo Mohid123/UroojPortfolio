@@ -21,6 +21,8 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { ShareButtonsModule } from 'ngx-sharebuttons/buttons';
 import { ShareIconsModule } from 'ngx-sharebuttons/icons';
 import { SidebarModule } from 'ng-sidebar';
+import { CalendarModule, DateAdapter } from 'angular-calendar';
+import { adapterFactory } from 'angular-calendar/date-adapters/date-fns';
 
 import { NgxSpinnerModule } from "ngx-spinner";
 
@@ -76,7 +78,11 @@ import { ProjectShowComponent } from './project-show/project-show.component';
     ShareIconsModule,
     FontAwesomeModule,
     SidebarModule.forRoot(),
-    NgxSpinnerModule
+    NgxSpinnerModule,
+    CalendarModule.forRoot({
+      provide: DateAdapter,
+      useFactory: adapterFactory,
+    }),
   ],
   providers: [
   ],
