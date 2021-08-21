@@ -29,65 +29,30 @@ import { CalendarModule, DateAdapter } from 'angular-calendar';
 import { adapterFactory } from 'angular-calendar/date-adapters/date-fns';
 
 import { AppRoutingModule } from './app-routing.module';
-import { ImageUploadService } from './Services/image-upload.service';
 
 import { AppComponent } from './app.component';
-import { GalleryComponent } from './gallery/gallery.component';
-import { GalleryCreateComponent } from './gallery-create/gallery-create.component';
 import { MainComponent } from './main/main.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { SidenavComponent } from './sidenav/sidenav.component';
-import { BlogArticlesComponent } from './blog-articles/blog-articles.component';
 import { FooterComponent } from './footer/footer.component';
-import { BlogAddComponent } from './blog-add/blog-add.component';
 import { ProfileComponent } from './profile/profile.component';
-import { EmbroideryComponent } from './embroidery/embroidery.component';
-import { AddNeedleworkComponent } from './add-needlework/add-needlework.component';
 import { PublicPagesComponent } from './public-pages/public-pages.component';
 import { ProjectsComponent } from './projects/projects.component';
 import { ProjectsAComponent } from './projects-a/projects-a.component';
 import { ProjectShowComponent } from './project-show/project-show.component';
-import { BlogAffiliateComponent } from './blog-affiliate/blog-affiliate.component';
-import { BlogAffiliateAddComponent } from './blog-affiliate-add/blog-affiliate-add.component';
-import { BlogYtComponent } from './blog-yt/blog-yt.component';
-import { BlogYtAddComponent } from './blog-yt-add/blog-yt-add.component';
-import { AddComponent } from './add/add.component';
-import { FashionUploadComponent } from './fashion-upload/fashion-upload.component';
-import { FashionComponent } from './fashion/fashion.component';
-import { MiscAddComponent } from './misc-add/misc-add.component';
-import { MiscComponent } from './misc/misc.component';
-import { SocialAddComponent } from './social-add/social-add.component';
-import { SocialComponent } from './social/social.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    GalleryComponent,
-    GalleryCreateComponent,
     MainComponent,
     SidenavComponent,
-    BlogArticlesComponent,
     FooterComponent,
-    BlogAddComponent,
     ProfileComponent,
-    EmbroideryComponent,
-    AddNeedleworkComponent,
     PublicPagesComponent,
     ProjectsComponent,
     ProjectsAComponent,
-    ProjectShowComponent,
-    BlogAffiliateComponent,
-    BlogAffiliateAddComponent,
-    BlogYtComponent,
-    BlogYtAddComponent,
-    AddComponent,
-    FashionUploadComponent,
-    FashionComponent,
-    MiscAddComponent,
-    MiscComponent,
-    SocialAddComponent,
-    SocialComponent
+    ProjectShowComponent
   ],
   imports: [
     BrowserModule,
@@ -126,7 +91,6 @@ import { SocialComponent } from './social/social.component';
     NgxSpinnerModule
   ],
   providers: [
-  ImageUploadService
   ],
   schemas: [CUSTOM_ELEMENTS_SCHEMA],
   bootstrap: [AppComponent]
