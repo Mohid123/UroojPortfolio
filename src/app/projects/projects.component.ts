@@ -1,6 +1,5 @@
 import { Component, OnInit, AfterViewInit, ViewChild, ElementRef } from '@angular/core';
 import WebViewer from '@pdftron/webviewer';
-import { NgxSpinnerService } from "ngx-spinner";
 
 @Component({
   selector: 'app-projects',
@@ -11,7 +10,7 @@ export class ProjectsComponent implements OnInit, AfterViewInit {
 	wvInstance: any;
 	@ViewChild('viewer') viewer: ElementRef
 
-  constructor(private spinner: NgxSpinnerService) { }
+  constructor() { }
 
   ngAfterViewInit(): void {
   	WebViewer({
@@ -40,16 +39,6 @@ export class ProjectsComponent implements OnInit, AfterViewInit {
   }
 
   ngOnInit() {
-
-    ngOnInit(): void {
-    this.spinner.show();
-
-    setTimeout(() => {
-      this.spinner.hide();
-    }, 5000);
-  }
-
-
     this.wvDocumentLoadedHandler = this.wvDocumentLoadedHandler.bind(this);
   }
 
