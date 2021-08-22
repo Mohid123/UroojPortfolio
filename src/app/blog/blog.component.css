@@ -1,0 +1,17 @@
+.example-card {
+  max-width: 400px;
+}
+
+.example-header-image {
+  background-image: url('../../assets/ava.jpg');
+  background-size: cover;
+}
+
+.main {
+    margin-bottom: 2%;
+    font-family: 'Dosis';
+    font-weight: 800;
+    letter-spacing: 2px;
+    color: floralwhite;
+    font-size: 2.5em; 
+}

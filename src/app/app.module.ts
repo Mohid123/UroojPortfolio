@@ -39,6 +39,7 @@ import { PublicPagesComponent } from './public-pages/public-pages.component';
 import { ProjectsComponent } from './projects/projects.component';
 import { ProjectsAComponent } from './projects-a/projects-a.component';
 import { ProjectShowComponent } from './project-show/project-show.component';
+import { BlogComponent } from './blog/blog.component';
 
 @NgModule({
   declarations: [
@@ -50,7 +51,8 @@ import { ProjectShowComponent } from './project-show/project-show.component';
     PublicPagesComponent,
     ProjectsComponent,
     ProjectsAComponent,
-    ProjectShowComponent
+    ProjectShowComponent,
+    BlogComponent
   ],
   imports: [
     BrowserModule,
