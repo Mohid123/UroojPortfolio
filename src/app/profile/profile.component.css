@@ -84,3 +84,29 @@
     font-family: 'Raleway', sans-serif;
     font-weight: 600;
 }
+
+.dropdown-notification {
+  height: 23vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
+  line-height: 40px;
+  background-color: white;
+  color: black;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  font-size: 2em;
+  text-align: center;
+  animation: welcome-dropdown 2s ease;
+}
+
+@keyframes welcome-dropdown {
+  from {
+    transform: translateY(calc(-100vh));
+  }
+  to {
+    transform: translateY(0);
+  }
+}

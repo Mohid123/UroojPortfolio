@@ -24,7 +24,7 @@ export class MainComponent implements OnInit {
 
     setTimeout(() => {
       this.spinner.hide();
-    }, 2000);
+    }, 3000);
   }
 
 }
